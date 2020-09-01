@@ -8,7 +8,7 @@
 
 - В корне приложения выполните команду:
 
-       ```docker-compose up --build```
+  ```docker-compose up --build```
 
 - Пройдите по адресу http://localhost/
 
