@@ -1,0 +1,113 @@
+#trigger {
+    z-index: 5;
+    width: 30px;
+    height: 30px;
+    background: #83A7C9;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    top: 0px;
+}
+
+#roulette {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 22%;
+    height: 300px;
+    width: 700px;
+}
+
+#requestButton {
+    position: relative;
+    top: 200px;
+    left: 39%;
+}
+
+#submitIntroductionForm {
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+}
+
+#introductionForm {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    margin-bottom: 30px;
+}
+
+#mistakeMessage {
+    color: red;
+    margin-bottom: -10px;
+}
+
+.circle{
+    width:300px;
+    height:300px;
+    border-radius:9999px;
+    background-color:transparent;
+    background-image:url("../img/circle.png");
+    background-position:center;
+    background-size:cover;
+    transition:2s;
+    transition-timing-function: ease-in-out;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.main-container {
+    height: 600px;
+}
+
+.sub-row{
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+}
+
+.col-form-label {
+    margin-top: 6px;
+}
+
+.wrong-input {
+    border: 1px solid red;
+}
+
+.success-input {
+    border: 1px solid green;
+}
+
+.pick-arrow{
+    z-index: 2;
+    font-size: 75px;
+    position: relative;
+    top: -110px;
+    right: -30px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 150px;
+    left: 273px;
+    width: 250px;
+    height: 9px;
+    background: #333333;
+    transform: rotate(90deg);
+}
+.arrow:before,
+.arrow:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 21px solid transparent;
+    border-right: 0;
+    top: -16px;
+    right: -20px;
+    border-left-color: #333333;
+}
+
